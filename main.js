@@ -7,7 +7,8 @@ createApp({
                 {
                     name: "Robi",
                     image: "https://example.com/john-smith.jpg",
-                    style:"success"
+                    style:"success",
+                    icon:"\u{1F33F} "
                 },
                 {
                     name: "Barni",
