@@ -37,7 +37,7 @@
   <body>
       
       <div id="app">
-      <h1>Daily Randomizer</h1>
+      <h1>Daily Randomizer <button class="btn btn-warning" @click="shuffleCoworkerArray"><i class="fas fa-sync-alt"></i></button></h1>
       <br>
       <lu v-for="coworker in coworkers">
         <li class="alert" :class="coworker.style ? 'alert-' + coworker.style : ''" role="alert">
